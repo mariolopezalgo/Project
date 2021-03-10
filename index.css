@@ -1,10 +1,44 @@
 body {
-    background-color: red;
+    background-color: orangered;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  #home {
+  #reset {
       text-decoration: none;
+      background-color: yellow;
+      border-radius: 25px;
+      color: blue;
     
+  }
+
+  #calc {
+      background-color: yellow;
+      text-align: center;
+      height: 100%;
+      width: 50%;
+      margin-left: 25%;
+      margin-right: 25%;
+      border-radius: 25px;
+  }
+
+  #h1 {
+      text-align: center;
+      background-color: blue;
+      color: white;
+      border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  }
+
+  #calculate {
+      background-color: greenyellow;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 25px;
+  }
+
+  #text {
+      color: red;
   }
