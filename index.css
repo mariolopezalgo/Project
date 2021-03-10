@@ -4,6 +4,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
+  #results {
+    background-color: orange;
+  }
+
   #reset {
       text-decoration: none;
       background-color: yellow;
@@ -19,15 +23,16 @@ body {
       width: 50%;
       margin-left: 25%;
       margin-right: 25%;
-      border-radius: 25px;
+      border-radius: 18px;
   }
 
   #h1 {
       text-align: center;
       background-color: blue;
       color: white;
-      border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+      border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  padding: 25px;
   }
 
   #calculate {

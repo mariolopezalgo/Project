@@ -24,9 +24,17 @@ var calculation = function () {
       totalBill = billAmount;
       break;
   }
- var text = "Each one has to pay:   ";
-  document.getElementById("result").innerHTML = text + (totalBill / numberOfPeople) + '$';
+  var tip = totalBill - billAmount;
+  var each = tip / numberOfPeople;
+  var space = '                    ';
+  var text2 = 'each:     ' + each + "$";
+  var text1 = 'The tip is:      ' + tip + "$";
+  document.getElementById('result1').innerHTML = text1 + space + text2;
+
+  var text = 'In total each one pays:      ';
+  document.getElementById('result').innerHTML =
+    text + totalBill / numberOfPeople + '$     ';
 };
-document.getElementById('calculate').addEventListener("click", function (){
-    calculation();
+document.getElementById('calculate').addEventListener('click', function () {
+  calculation();
 });
