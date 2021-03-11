@@ -13,7 +13,7 @@ body {
       background-color: yellow;
       border-radius: 25px;
       color: blue;
-    
+    padding: 6px;
   }
 
   #calc {
