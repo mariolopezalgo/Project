@@ -1,3 +1,5 @@
+var f = 1;
+
 var calculation = function () {
   var billAmount = document.getElementById('billAmount').value;
   var serviceQuality = document.getElementById('serviceQuality').value;
@@ -27,8 +29,8 @@ var calculation = function () {
   var tip = totalBill - billAmount;
   var each = tip / numberOfPeople;
   var space = '                    ';
-  var text2 = 'each:     ' + each + "$";
-  var text1 = 'The tip is:      ' + tip + "$";
+  var text2 = 'each:     ' + each + '$';
+  var text1 = 'The tip is:      ' + tip + '$';
   document.getElementById('result1').innerHTML = text1 + space + text2;
 
   var text = 'In total each one pays:      ';
@@ -38,3 +40,23 @@ var calculation = function () {
 document.getElementById('calculate').addEventListener('click', function () {
   calculation();
 });
+
+var sum0 = function () {
+  var n1 = document.getElementById('n1').value;
+  var n2 = document.getElementById('n2').value;
+  var r0 = '';
+  r0 = parseInt(n1) + parseInt(n2);
+  document.getElementById('r1').innerHTML = r0;
+};
+document.getElementById('sum').addEventListener('click', function (e) {
+  e.preventDefault();
+  sum0();
+});
+
+var c = 1;
+if (c == 1) {
+  console.log("eNO");
+}
+
+
+console.log(eNO);
